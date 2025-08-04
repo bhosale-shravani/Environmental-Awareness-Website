@@ -1,0 +1,44 @@
+.volunteer-form {
+  background-color: #e6fffa;
+  padding: 30px 40px;
+  border-radius: 10px;
+  margin: 40px;
+}
+
+.volunteer-form h2 {
+  color: #2c7a7b;
+}
+
+.volunteer-form form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.volunteer-form label {
+  font-weight: bold;
+}
+
+.volunteer-form input,
+.volunteer-form select,
+.volunteer-form textarea {
+  padding: 10px;
+  border: 1px solid #a0aec0;
+  border-radius: 5px;
+  font-size: 1em;
+}
+
+.volunteer-form button {
+  background-color: #38a169;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.volunteer-form button:hover {
+  background-color: #2f855a;
+}

@@ -1,0 +1,54 @@
+body {
+  font-family: High Tower Text;
+  margin: 0;
+  padding: 0;
+ font-weight: 600px;
+  background-size: cover;
+  color:fdfdf6;
+}
+
+.overlay {
+  background-color:#f0fdf4;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: auto;
+  color: #2E7D33;
+}
+
+h1, h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 600px;
+  color: #50C878;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid #cfcfcf;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+ /* card heading */
+.card h3 {
+  margin-top: 0;
+  color: #005f3c; 
+  font-weight: 600px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #4a766e ;
+  line-height: 1.6;
+}
+
+@media (max-width: 600px) {
+  .card {
+    padding: 15px;
+  }
+}
